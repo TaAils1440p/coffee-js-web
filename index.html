@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convertisseur JS → CoffeeScript</title>
+
+  <!-- Prism.js (style clair) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Convertisseur JavaScript → CoffeeScript</h1>
+
+  <textarea id="jsInput" placeholder="Écris ton code JavaScript ici..."></textarea>
+  <br>
+  <button onclick="convertFake()">Convertir</button>
+
+  <h2>Code CoffeeScript</h2>
+  <pre><code id="output" class="language-coffeescript">(rien a afficher)</code></pre>
+
+  <!-- Prism.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-coffeescript.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
